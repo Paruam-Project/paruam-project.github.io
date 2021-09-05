@@ -1,0 +1,26 @@
+{
+  "name": "paruam-project-github-io",
+  "license": "CC-BY-SA-4.0",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "/*.{md,markdown}": "lint-md"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "lint-staged": "^11.1.2",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-mermaidjs": "^1.8.1"
+  },
+  "dependencies": {
+    "@kidonng/vuepress-plugin-contributors": "^0.3.0",
+    "uuid": "^8.3.2"
+  },
+  "resolutions": {
+    "vuepress-plugin-smooth-scroll": "^0.0.10"
+  }
+}
