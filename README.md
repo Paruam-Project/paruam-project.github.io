@@ -1,6 +1,2 @@
-# paruam-project.github.io
-
-这是Paruam的官方网站
-
-[文档]:docs.md
+[文档](https://paruam-project.github.io/docs.html)
 
