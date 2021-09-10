@@ -1,2 +1,0 @@
-# Paruam Project
-
